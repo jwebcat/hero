@@ -2,125 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Hero - Simple call outboxes and background colors</title>
+    <title>Hero - Simple callout boxes and background colors</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- stylesheets -->
-    <link rel="stylesheet" href="kraken.css" type="text/css" />
+    <link rel="stylesheet" href="hero.css" type="text/css" />
 
-    <!-- HTML5 Shim for IE 6-8 -->
-    <!--[if lt IE 9]>
+    <!-- HTML5 Shim for IE -->
+    <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 
 <body>
-	<section class="space-bottom bg-gray">
-	    <article class="container text-center">
+	<section class="container">
 
-            <h1 class="text-taller no-space-bottom"><i class="icon-logo"></i> Hero</h1>
-            <p class="text-tall text-muted">Simple callout boxes and background colors.</p>
-
-	        <p><a class="btn btn-blue btn-jumbo" href="#">Download Hero</a></p>
-
-	        <p>
-	            <span class="text-small">
-	                <a href="#"><i class="icon-github"></i> GitHub Project</a>
-	                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	                <a href="#more"><i class="icon-docs"></i> Getting Started</a>
-                </span>
-            </p>
-
-        </article>
-    </section>
-
-	<section class="space-bottom">
-	    <article class="container">
+	    <h1 style="text-align: center; font-size: 3em;">Hero</h1>
+	    <p style="text-align: center; font-size: 1.5em;">Simple callout boxes and background colors.</p>
 
 
-	        <h1 class="text-center" id="more">Callout Boxes</h1>
+        <h1>Callout Boxes</h1>
 
-	        <p>Create a callout box (also known as a "hero") by adding the <code>.hero</code> class to a <code>&lt;div&gt;</code> element.</p>
+        <div class="hero">
+            A hero is a simple callout box like this one. You might put a call-to-action or some noteworthy information here.
+        </div>
 
-	        <div class="hero">
-	            A hero is a simple callout box like this one. You might put a call-to-action or some noteworthy information here.
-	        </div>
-
-	        <pre>&lt;div class="hero"&gt;
-    A hero is a simple callout box like this one. You might put a call-to-action or some noteworthy information here.
-&lt;/div&gt;</pre>
+        <div class="hero hero-condensed">
+            For smaller spaces, you might prefer a hero with less padding like this one.
+        </div>
 
 
-            <h2 class="text-center">Condensed Heroes</h2>
+        <h1>Background Colors</h1>
 
-            <p>You can reduce the padding on a hero box by adding the <code>.hero-condensed</code> class.<p>
+	</section>
 
-            <div class="hero hero-condensed">
-	            For smaller spaces, you might prefer a hero with less padding like this one.
-	        </div>
+    <div class="bg">
+        <div class="container">
+            This section has a background color.
+        </div>
+    </div>
 
-	        <pre>&lt;div class="hero hero-condensed"&gt;
-    For smaller spaces, you might prefer a hero with less padding like this one.
-&lt;/div&gt;</pre>
+    <div class="bg bg-blue">
+        <div class="container">
+            This section has a blue background.
+        </div>
+    </div>
 
+    <div class="bg bg-condensed">
+        <div class="container">
+            This section has a condensed background.
+        </div>
+    </div>
 
-	        <hr>
-
-
-	        <h1 class="text-center">Background Colors</h1>
-
-	        <p>Add background color to a section (like the header and footer of this page) with the <code>.bg</code> class.</p>
-
-	        <p>Backgrounds have no left or right padding, so add a <code>.container</code> inside the <code>.bg</code> or text will run from edge to edge in the browser.</p>
-
-	        <pre>&lt;div class="bg"&gt;
-    &lt;div class="container"&gt;
-        This section has a background color.
-    &lt;/div&gt;
-&lt;/div&gt;</pre>
-
-
-	        <h2 class="text-center">Other Colors</h2>
-
-	        <p>For blue backgrounds (with white text), also include the <code>.bg-blue</code> class. You can add additional colors to suit your design.</p>
-
-	        <p>Links may not be visible or have enough contrast on different colored backgrounds. You may need to add modified link styling for background color sections. You can test your design with the free, cross-platform <a href="http://colororacle.org/">Color Oracle app</a>.</p>
-
-            <pre>&lt;div class="bg bg-blue"&gt;
-    &lt;div class="container"&gt;
-        This section has a blue background.
-    &lt;/div&gt;
-&lt;/div&gt;</pre>
-
-
-	        <h2 class="text-center">Condensed Backgrounds</h2>
-
-	        <p>For backgrounds with less padding at the top and bottom, add the <code>.bg-condensed</code> class.</p>
-
-            <pre>&lt;div class="bg bg-condensed"&gt;
-    &lt;div class="container"&gt;
-        This section has a condensed background.
-    &lt;/div&gt;
-&lt;/div&gt;</pre>
-
-        </article>
-    </section>
-
-
-
-	<footer class="bg-gray">
-        <article class="container">
-
-            <p class="text-small text-muted text-center">Built by <a href="http://gomakethings.com">Chris Ferdinandi</a>. Licensed under <a href="http://www.wtfpl.net/">WTFPL</a>.</p>
-
-            <p class="text-small text-muted text-center">TITLE is an add-on for <a href="http://cferdinandi.github.com/kraken/">Kraken</a>, a lightweight, mobile-first boilerplate for front-end web developers. It works great as a standalone product, too.</p>
-
-        </article>
-	</footer>
-
-
-    <!-- Javascript -->
-    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
-    <script type='text/javascript' src='js/kraken.js'></script>
 
 </body>
 </html>
